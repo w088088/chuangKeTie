@@ -1,0 +1,72 @@
+/* pages/scanDetail/scanDetail.wxss */
+/* components/search/search.wxss */
+.search-wrap{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.search-wrap input{
+  width: 700rpx;
+  margin: 20rpx auto;
+  padding: 10rpx;
+  background-color: #F8F8FB;
+  text-align: center;
+  border-radius: 20rpx;
+  color: rgba(0,0,0,.6);
+  font-size: 28rpx;
+
+}
+.search-wrap image{
+  width: 30rpx;
+  position: absolute;
+  top: 36rpx;
+  left: 150rpx;
+}
+.scroll-wrap{
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 50px;
+  overflow: auto;
+  border-bottom: 1rpx solid #dedede;
+}
+.item{
+  margin: 30rpx;
+  flex-shrink: 0;
+}
+.icons{
+  width: 46rpx;
+  height: 46rpx;
+  position: fixed;
+  top: 130rpx;
+  right: 0rpx;
+  z-index: 999;
+}
+.icons image{
+  width: 46rpx;
+  height: 46rpx;
+}
+.btns{
+  display: flex;
+}
+.btns .item1{
+  font-size: 28rpx;
+  margin: 15rpx 20rpx;
+  padding: 15rpx;
+  background-color: #F3F4F9;
+  border-radius: 30rpx;
+}
+.imgs{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.imgs image{
+  width: 47%;
+  margin-bottom: 20rpx;
+}

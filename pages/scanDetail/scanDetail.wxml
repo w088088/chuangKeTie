@@ -1,0 +1,25 @@
+<!--pages/scanDetail/scanDetail.wxml-->
+<view>
+  <view class="search-wrap">
+    <image src="/images/下载.png" mode="widthFix"></image>
+    <input placeholder="200000+ 免费模板任你搜索"></input>
+  </view>
+  <view class="scroll-wrap">
+    <view class="item">全部</view>
+    <view 
+      class="item" wx:for="{{list.repoTag.use}}" wx:key="index">{{item.name}}
+    </view>
+    <view class="icons" >
+      <image src="/images/11.png"></image>
+    </view>
+  </view>
+  <view class="btns">
+      <view wx:for="{{arr}}" wx:key="index" class="item1" bindtap="sort" data-sort="{{item}}">{{item}}</view>
+    </view>
+  <view class="imgs">
+    <image wx:for="{{imgList}}" wx:key="index" src="{{item.designTemplateImageUrl}}" mode="widthFix"
+     bindtap="jump"
+      data-id="{{item.designTemplateId}}"
+    ></image>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "app-btn":"/components/appbtn/appbtn",
+    "search-com":"/components/search/search",
+    "icons-com":"/components/icons/icons",
+    "theme-com":"/components/theme/theme",
+    "my-com":"/components/mycom/mycom"
+  }
+}

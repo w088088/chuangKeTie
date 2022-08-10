@@ -1,0 +1,44 @@
+/* components/mycom/mycom.wxss */
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.title text{
+
+  margin-left: 20rpx;
+  margin-top: 25rpx;
+  margin-bottom: 15rpx;
+  color: #000;
+}
+.title text:nth-child(1){
+    font-size: 32rpx;
+    font-weight: 600;
+}
+.title text:nth-child(2){
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.item{
+  display: flex;
+  flex-wrap: wrap ;
+
+}
+.item image{
+  width: 30%;
+  margin: 10rpx;
+  box-sizing: border-box;
+  border: 1rpx solid #dedede;
+}
+.item4 image,.item7 image{
+  width: 46%;
+}
+.wrap .btn{
+  display: flex;
+}
+.wrap .btn button{
+  width: 350rpx;
+  border-radius: 50rpx;
+  margin: 20prx;
+  font-weight: 400;
+  font-size: 28rpx;
+}

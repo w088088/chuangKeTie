@@ -1,0 +1,8 @@
+<!--pages/my/my.wxml-->
+<view class="login">
+  <view>
+    <image src="/images/我的.png"></image>
+  </view>
+  <view class="txt">登录后才可以看到你的设计</view>
+  <button>立即登录</button>
+</view>

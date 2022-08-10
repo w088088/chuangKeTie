@@ -1,0 +1,76 @@
+/* pages/tempDetail/tempDetail.wxss */
+.wrap{
+  padding: 0 20rpx;
+}
+.imgWrap{
+    height:906rpx;
+    background: #e3e6e9;
+    border-radius: 20rpx;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.imgWrap image{
+  height: 848rpx;
+  width: 640rpx;
+}
+.imgp-wrap{
+  text-align: center;
+  margin-top: 40rpx;
+}
+.title{
+  font-weight: 900;
+  color: #000;
+  font-size: 32rpx;
+  margin-top: 28rpx;
+  margin-bottom: 20rpx;
+}
+.mark{
+  color: rgba(0,0,0,.6);
+}
+.text{
+  margin-top: 28rpx;
+  color: #000;
+  line-height: 46rpx;
+  font-size: 32rpx;
+}
+.list-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.list-wrap image{
+  width: 48%;
+  margin-bottom: 30rpx;
+  border-bottom: 1px solid #dedede;
+}
+.title1{
+  margin-bottom: 30rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 143rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.bottom image{
+  width: 46rpx;
+  height: 46rpx;
+}
+.btn{
+  margin-left: 30rpx;
+  background-color: #0773FC;
+  width: 550rpx;
+  height:95rpx ;
+  text-align: center;
+  line-height: 95rpx;
+  color: #fff;
+  border-radius: 15rpx;
+}

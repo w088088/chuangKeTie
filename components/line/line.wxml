@@ -1,0 +1,5 @@
+<!--components/line/line.wxml-->
+<view class="wrap">
+  <slot name="icon"></slot>
+  <slot name="title"></slot>
+</view>

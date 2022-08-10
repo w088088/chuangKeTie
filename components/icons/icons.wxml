@@ -1,0 +1,8 @@
+<!--components/icons/icons.wxml-->
+<view class="wrap">
+  <view class="item" wx:for="{{list}}" wx:key="designKindId" wx:if="{{index<8}}">
+    <image src="{{item.thumbUrl}}" mode="widthFix"  bindtap="jump" data-id="{{item.designKindId}}" data-name="{{item.name}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+<view class="line"></view>

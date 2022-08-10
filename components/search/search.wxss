@@ -1,0 +1,26 @@
+/* components/search/search.wxss */
+.search-wrap{
+  width: 100%;
+  border-bottom: 1rpx solid #0773FC;
+  position: fixed;
+  top: 135rpx;
+  background-color: #fff;
+  z-index: 999;
+}
+.search-wrap input{
+  width: 700rpx;
+  margin: 20rpx auto;
+  padding: 10rpx;
+  background-color: #F8F8FB;
+  text-align: center;
+  border-radius: 20rpx;
+  color: rgba(0,0,0,.6);
+  font-size: 28rpx;
+
+}
+.search-wrap image{
+  width: 30rpx;
+  position: absolute;
+  top: 36rpx;
+  left: 150rpx;
+}

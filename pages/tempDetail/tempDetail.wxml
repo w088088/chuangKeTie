@@ -1,0 +1,33 @@
+<!--pages/tempDetail/tempDetail.wxml-->
+<view class="wrap">
+  <view class="imgWrap">
+    <view class="imgp-wrap">
+      <image src="{{list.currentTemplate.designTemplateImageUrl}}" mode="heightFix"></image>
+    </view>
+  </view>
+  <view class="cont">
+    <view class="title">{{list.currentTemplate.templateTitle}}</view>
+    <view class="mark">{{list.currentTemplate.kindTitle}}</view>
+    <view class="text">
+      图片编号为{{list.currentTemplate.designTemplateId}},
+      改手机海报尺寸是{{list.currentTemplate.width}}*{{list.currentTemplate.height}}。
+      点击"立即使用"，《{{list.currentTemplate.templateTitle}}》一键生成，在线编辑好图片，简单拖拉拽，秒出精美海报
+    </view>
+  </view>
+  <view class="list">
+    <view class="title title1">
+      为你推荐
+    </view>
+    <view class="list-wrap">
+      <image wx:for="{{list.recommendedTemplates}}" wx:key="designTemplateId" src="{{item.designTemplateImageUrl}}" mode="heightFix"></image>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="icon">
+      <image src="/images/收藏.png"></image>
+    </view>
+    <view class="btn">
+      立即编辑
+    </view>
+  </view>
+</view>

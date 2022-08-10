@@ -1,0 +1,28 @@
+/* components/appbtn/appbtn.wxss */
+.appbtn text{
+  color: #FFFFFF;
+  font-size: 64rpx;
+  position: relative;
+  top: -5rpx;
+}
+.appbtn image{
+  width: 340rpx;
+}
+.appbtn{
+  background-color: #0773FC;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20rpx 0;
+  margin: 0 10rpx;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+.btn{
+  border-radius: 40rpx;
+  background-color: #FFFFFF;
+  color: #0773FC;
+  padding: 10rpx 20rpx;
+}

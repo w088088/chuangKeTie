@@ -1,0 +1,6 @@
+<!--components/appbtn/appbtn.wxml-->
+<view class="appbtn" wx:if="{{isShow}}">
+  <text bindtap="close">×</text>
+  <image src="https://m.chuangkit.com/ziyuan/images/cktlogo.jpg" mode="widthFix"></image>
+  <view class="btn">APP内打开</view>
+</view>

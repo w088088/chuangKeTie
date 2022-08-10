@@ -1,0 +1,23 @@
+<!--components/mycom/mycom.wxml-->
+<view class="wrap" wx:for="{{data}}" wx:key="totalCount">
+  <view class="title" >
+    <text>{{item.name}}</text>
+    <text bindtap="jump1" data-id="{{item.kindId}}" data-name="{{item.name}}">进入场景</text>
+  </view>
+
+  <view class="item item{{index}}">
+    <image 
+      wx:for="{{item.templates}}" 
+      wx:key="totalCount"  
+      src="{{item.designTemplateImageUrl}}"
+      mode="widthFix"
+      bindtap="jump"
+      data-id="{{item.designTemplateId}}"
+      ></image>
+  </view>
+  <view class="btn">
+    <button class="more" >更多</button>
+    <button class="update" >换一批</button>
+  </view>
+  <mp-dialog mask="{{true}}"  mask-closable="{{true}}" show="{{true}}">哈喽呀</mp-dialog>
+</view>

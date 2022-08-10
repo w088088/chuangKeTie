@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<!-- 上方广告组件 -->
+<app-btn></app-btn>
+<!-- 搜索框组件 -->
+<search-com></search-com>
+<!-- icons组件 -->
+<icons-com></icons-com>
+<!-- 推荐专题 -->
+<theme-com></theme-com>
+<!-- 列表 -->
+<my-com data="{{list}}"></my-com>

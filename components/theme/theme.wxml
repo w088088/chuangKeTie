@@ -1,0 +1,12 @@
+<!--components/theme/theme.wxml-->
+<view class="title">
+  推荐专题
+</view>
+<view class="item-wrap">
+  <view class="item" wx:for="{{list}}" wx:key="id">
+    <view class="title">{{item.title}}</view>
+    <view class="cont">{{item.themeDescribe}}</view>
+    <view class="it{{index}} items"></view>
+  </view>
+</view>
+

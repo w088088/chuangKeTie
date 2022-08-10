@@ -1,0 +1,5 @@
+<!--components/search/search.wxml-->
+<view class="search-wrap">
+  <image src="/images/下载.png" mode="widthFix"></image>
+  <input placeholder="200000+ 免费模板任你搜索"></input>
+</view>
